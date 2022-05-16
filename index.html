@@ -1,105 +1,130 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nёrd's</title>
 </head>
+
 <body>
     <header>
         <nav>
             <a href="index.html">
-                <img src="nerds-logo.jpg" alt="Логотип студии Nёrds»">
+                <img src="images/nerds-logo.jpg" alt="Логотип студии Nёrds»">
             </a>
+            <!-- Заменить пустые ссылки на # -->
             <ul>
-                <li><a href="Information.html">Информация</a></li>
+                <li><a href="#">Информация</a></li>
                 <li><a href="Clients.html">Клиенты</a></li>
-                <li><a href="Shop.html">Магазин</a></li>
+                <li><a href="catalog.html">Магазин</a></li>
                 <li><a href="Contacts.html">Контакты</a></li>
             </ul>
             <a href="Basket.html">Корзина</a>
+
+            <!-- Перенести в main, сделать секцией -->
             <ul>
                 <li>
                     <h1>Долго, дорого, скрупулезно.</h1>
-                    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p> 
-                    <a href="">Узнать больше</a> 
+                    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                    <a href="#">Узнать больше</a>
                 </li>
-            </ul>  
-            <img src="nerds-index-slide1 1.jpg" alt="картинка">     
+            </ul>
+            <img src="images/nerds-index-slide1 1.jpg" alt="картинка">
         </nav>
     </header>
     <hr>
     <main>
         <section>
             <h1>Какие дизайны мы разрабатываем</h1>
-            <!-- Исправить список ul -> li*3 -->
+
+            <!-- Не забудь! Исправить список ul -> li*3 -->
             <ul>
                 <h2>Веб-сайты</h2>
                 <li>Мир никогда не будет прежним после того как вы увидете наш сайт</li>
-                <a href=""> Заказать</a>
+                <a href="#"> Заказать</a>
             </ul>
             <ul>
                 <h2>Приложения</h2>
                 <li>Покорите топ-10 приложении в AppStore и Google Play</li>
-                <a href=""> Заказать</a>
+                <a href="#"> Заказать</a>
             </ul>
             <ul>
                 <h2>Презентации</h2>
                 <li>Вы даже не подазреваете насколько вы изумительны</li>
-                <a href=""> Заказать</a>
+                <a href="#"> Заказать</a>
             </ul>
         </section>
         <hr>
         <section>
-            <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
-                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-                   <ul>
-                    <h3>Выполняем заказы на разработку:</h3>
-                       <li>Веб-сайтов любой сложности</li>
-                       <li>Мобильных приложений для iOs и Android</li>
-                       <li>Слайдшоу и видео для корпоротивных презентации</li>
-                   </ul>
-                   <img src="nerds-illustration 1.jpg" alt="Иллюстрация">
-                   <h3>с 2004 года Любим точность во всем:</h3>
-                   <table>
-                       <tr>
-                           <td>146%</td>
-                           <td>100%</td>
-                           <td>50%</td>
-                           <tr>
-                               <td>Уровень самоотдачи</td>
-                               <td>Соблюдение сроков</td>
-                               <td>Минимальная предоплата</td>
-                           </tr>
-                       </tr>
-                   </table>
-         </section>
+            <div>
+                <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не
+                    покладая рук, как роботы.</p>
+                <h3>Выполняем заказы на разработку:</h3>
+                <ul>
+                    <li>Веб-сайтов <span>любой</span> сложности</li>
+                    <li>Мобильных приложений для iOs и Android</li>
+                    <li>Слайдшоу и видео для корпоротивных презентации</li>
+                </ul>
+            </div>
 
-         <hr>
-
-         <section>
-              <a href=""><img src="html academy.jpg" alt="html academy"></a>
-              <a href=""><img src="borodinsky.jpg" alt="borodiski"></a>
-              <a href=""><img src="pink.jpg" alt="pink"></a></li>
-              <a href=""><img src="mishka.jpg" alt="mishka"></a>
+            <div>
+                <div>
+                    <img src="images/nerds-illustration 1.jpg" alt="Иллюстрация">
+                </div>
+                <h3>с 2004 года Любим точность во всем:</h3>
+                
+                <!-- Сделать не таблицу а список процентов -->
+                <ul>
+                    <li>
+                        <p>146<span>%</span></p>
+                        <p>Уровень самоотдачи</p>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <table>
+                    <tr>
+                        <td>146%</td>
+                        <td>100%</td>
+                        <td>50%</td>
+                    <tr>
+                        <td>Уровень самоотдачи</td>
+                        <td>Соблюдение сроков</td>
+                        <td>Минимальная предоплата</td>
+                    </tr>
+                    </tr>
+                </table>
+            </div>
         </section>
 
-          <hr>
+        <hr>
 
-          <section>
-              <ul>
-                <li>    
+        <!-- Переименовать картинки чтобы не было пробелов и ссылки # -->
+        <section>
+            <a href=""><img src="images/html academy.jpg" alt="html academy"></a>
+            <a href=""><img src="images/borodinsky.jpg" alt="borodiski"></a>
+            <a href=""><img src="images/pink.jpg" alt="pink"></a></li>
+            <a href=""><img src="images/mishka.jpg" alt="mishka"></a>
+        </section>
+
+        <hr>
+
+        <section>
+            <ul>
+                <li>
                     <h3>NЁRDS DESIGN STUDIO</h3>
                     <P>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</P>
                     <p>тел. +7 (812) 275-75-75</p>
                     <a href="">Напишите нам</a>
                 </li>
-              </ul>
-          </section>
+            </ul>
+        </section>
 
-    <hr>
-    
+        <hr>
+
     </main>
     <footer>
         <section>
@@ -107,10 +132,11 @@
             <p>Скидка 10% для друзей из социальных сетей</p>
             <ul>
                 <li><a href="http://vk.com">ВКонтакте</a></li>
-                <li><a href="http://facebook.com">Facebook</a></li> 
+                <li><a href="http://facebook.com">Facebook</a></li>
                 <li><a href="http://instagram.com">Instagram</a></li>
             </ul>
         </section>
     </footer>
 </body>
+
 </html>
