@@ -619,12 +619,19 @@ list-style: none;
     align-items: center;
 }
 
-.html-academy{
+.html-academy,
+.borodinski,
+.pink,
+.mishka{
   opacity: 0.3;
 }
 
-.html-academy a:hover{
-  opacity: 0.5;
+.html-academy:hover,
+.borodinski:hover,
+.pink:hover,
+.mishka:hover{
+  opacity: 1;
+  transition: ease 2s;
         }
 
    .expirience a:active{
